@@ -276,4 +276,13 @@ Redémarrer nginx
 alex@server:~$ sudo systemctl restart nginx
 ```
 #### 7. Configuration Gitea depuis l'interface web
-Se connecter sur http://URL_SERVER/install
+Se connecter sur http://URL_SERVER/install pour accéder à l'interface d'installation
+
+Renseigner les informations de la base de données configurée plus haut
+![Drag Racing](Image/gitea_conf.png)
+
+Renseigner les informations pour **********
+![Drag Racing](Image/gitea_conf.png)
+
+Dans _Server and Other Services Settings_, cocher Disable Self-registration pour éviter les inscriptions automatiques
+![Drag Racing](Image/gitea_service_settings.png)
