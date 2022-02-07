@@ -289,3 +289,5 @@ Dans _Server and Other Services Settings_, cocher Disable Self-registration pour
 
 Configurer les identifiants du compte administrateur de Gitea
 ![gitea_admin_account](Image/gitea_admin_account.png)
+
+Cliquer sur Install Gitea une fois tout configuré
