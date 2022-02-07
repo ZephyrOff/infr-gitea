@@ -1,7 +1,7 @@
 # infr-gitea
 #### 1. Mettre à jour et installer les packages
 ```console
-alex@server:~$ sudo apt -y update
+alex@server:~$ sudo apt -y update | sudo apt -y upgrade
 ```
 ```console
 alex@server:~$ sudo apt -y install git vim bash-completion
