@@ -208,7 +208,7 @@ Configurer les dossiers pour Gitea
 alex@server:~$ sudo mkdir -p /etc/gitea /var/lib/gitea/{custom,data,indexers,public,log}
 alex@server:~$ sudo chown git:git /var/lib/gitea/{data,indexers,log}
 alex@server:~$ sudo chmod 750 /var/lib/gitea/{data,indexers,log}
-alex@server:~$ sudo chown root:git /etc/gitea
+alex@server:~$ sudo chown git:git /etc/gitea
 alex@server:~$ sudo chmod 770 /etc/gitea
 ```
 #### 5. Configuration du service pour Gitea
